@@ -2,12 +2,12 @@
     font-family: Roboto, sans-serif; 
 }
 
-header, footer {
+header, footer{
     background-color: #1F2937;
 }
 
 .speaker {
-    color: #1F2937;
+    color: darkblue;
     background-color: #E5E7EB;
 }
 
@@ -33,15 +33,20 @@ button {
     color: white;
 }
 
+.bottom {
+    background-color: #3882F6;
+    color: white;
+}
+
 .info-text {
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
     font-weight: 900;
 }
 
 blockquote {
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 22px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
@@ -49,4 +54,9 @@ blockquote {
 
 .copyright-text {
     color: white;
+}
+
+img {
+    color: white;
+    background-color: #3b3b3b;
 }
