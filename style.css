@@ -211,7 +211,7 @@ figure {
     display: flex;
     text-align: center;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border: 2px solid white;
     padding: 1%;
 }
