@@ -96,6 +96,8 @@ header {
 
 footer {
     display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .hero {
