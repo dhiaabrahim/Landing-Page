@@ -1,4 +1,4 @@
-/* Fonts and colors */
+/*                                      Fonts and colors                               */
 * {
     font-family: Roboto, sans-serif; 
     /* border: 2px solid red; */
@@ -9,7 +9,7 @@ header, footer{
 }
 
 .speaker {
-    color: darkblue;
+    color: #1F2937;
     background-color: #E5E7EB;
 }
 
@@ -81,7 +81,8 @@ a {
     color: #E5E7EB;
 }
 
-/* Flexbox */
+/*                                         FLEXBOX                                      */
+/* header */
 body {
     margin: 0;
     display: flex;
@@ -121,11 +122,47 @@ footer {
 
 .first-img {
     display: flex;
-    width: 600px;
+    width: 550px;
     height: 230px;
     padding-left: 0;
 }
 
 .left-side {
     padding-right: 0;
+}
+
+/* Second-section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-div {
+    display: flex;
+    justify-content: center;
+}
+
+.first-div, .second-div, .third-div, .fourth-div {
+    border: 3px solid #3B81F6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 150px;
 }
