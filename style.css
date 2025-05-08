@@ -8,11 +8,6 @@ header, footer{
     background-color: #1F2937;
 }
 
-.speaker {
-    color: #1F2937;
-    background-color: #E5E7EB;
-}
-
 .hero-main{
     font-size: 48px;
     color: #F9FAF8;
@@ -59,14 +54,6 @@ button {
     font-weight: 900;
 }
 
-blockquote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1F2937;
-}
-
 .copyright-text {
     color: white;
 }
@@ -82,7 +69,7 @@ a {
 }
 
 /*                                         FLEXBOX                                      */
-/* header */
+/* Header */
 body {
     margin: 0;
     display: flex;
@@ -114,8 +101,9 @@ footer {
 .hero {
     display: flex;
     padding: 24px;
-    padding-left: 100px;
+    padding-left: 45px;
     padding-bottom: 100px;
+    padding-top: 75px;
     justify-content: center;
     align-items: flex-end;
 }
@@ -165,4 +153,39 @@ figure {
 
 .content {
     max-width: 150px;
+}
+
+/* Quote */
+
+/* Center the entire quote block horizontally and gives padding.*/
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Restricts width and centers content inside.*/
+.quote {
+    max-width: 825px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centers the text and ensures clean spacing.*/
+.quote-paragraph {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Aligned to the right inside the quote block only.*/
+.speaker {
+    font-weight: 600;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-right: 10px;
+    background-color: transparent;
 }
